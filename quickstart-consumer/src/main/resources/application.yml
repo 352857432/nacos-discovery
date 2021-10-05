@@ -1,0 +1,15 @@
+server:
+  port: 56020 #启动端口
+spring:
+  application:
+    name: quickstart-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 7b1ec964-4e8a-4dad-99e6-88abf0f7fd1f
+#        cluster-name: DEFAULT
+logging:
+  level:
+    root: info
+    org.springframework: info

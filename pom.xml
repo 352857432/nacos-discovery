@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>quickstart-consumer</module>
+        <module>quickstart-provider</module>
     </modules>
     <packaging>pom</packaging>
 
