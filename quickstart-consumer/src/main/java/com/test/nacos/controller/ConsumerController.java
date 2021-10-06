@@ -13,7 +13,6 @@ public class ConsumerController {
     @Autowired
     ProviderClient providerClient;
 
-
     @GetMapping("/service")
     public String service(){
         //远程调用
